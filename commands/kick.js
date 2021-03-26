@@ -16,7 +16,7 @@ module.exports = {
         if(member) {
             member.kick(motivo).then(() => {
                 const embed = new discord.MessageEmbed()
-                .setTitle("Mandarino-Bot  | Espulsione")
+                .setTitle("JDS-Bot  | Espulsione")
                 .setTimestamp()
                 .setThumbnail(member.user.displayAvatarURL())
                 .addField('Membro Espulso', `<@${member.id}>`)
